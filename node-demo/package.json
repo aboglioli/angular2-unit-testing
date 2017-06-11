@@ -1,0 +1,23 @@
+{
+  "name": "node-demo",
+  "version": "0.0.1",
+  "description": "Ejemplo de uso de tests unitarios con NodeJS",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aboglioli/angular2-unit-testing.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aboglioli/angular2-unit-testing/issues"
+  },
+  "homepage": "https://github.com/aboglioli/angular2-unit-testing",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  }
+}
