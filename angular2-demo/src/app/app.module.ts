@@ -8,13 +8,15 @@ import { MultiplesComponent } from './multiples/multiples.component';
 import { SubComponent } from './multiples/sub/sub.component';
 
 import './operators';
+import { IOComponent } from './io/io.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BasicComponent,
     MultiplesComponent,
-    SubComponent
+    SubComponent,
+    IOComponent
   ],
   imports: [
     BrowserModule,
