@@ -6,4 +6,4 @@ En este repositorio se encuentran ejemplos de tests unitarios con **NodeJS** y *
 
 ## Contacto
 
-Alan Boglioli <*alan.boglioli@gmail.com*>
+Alan Boglioli <_alan.boglioli@gmail.com_>
