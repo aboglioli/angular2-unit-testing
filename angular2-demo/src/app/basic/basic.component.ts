@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-basic-component',
+  selector: 'app-basic',
   template: '<h1>{{title}}</h1>',
 })
-export class BasicComponentComponent implements OnInit {
+export class BasicComponent implements OnInit {
   title = 'Componente básico'
 
   constructor() { }

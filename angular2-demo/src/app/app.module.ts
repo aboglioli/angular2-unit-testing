@@ -3,12 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BasicComponentComponent } from './basic-component/basic-component.component';
+import { BasicComponent } from './basic/basic.component';
+import { MultiplesComponent } from './multiples/multiples.component';
+import { SubComponent } from './multiples/sub/sub.component';
+
+import './operators';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BasicComponentComponent
+    BasicComponent,
+    MultiplesComponent,
+    SubComponent
   ],
   imports: [
     BrowserModule,
