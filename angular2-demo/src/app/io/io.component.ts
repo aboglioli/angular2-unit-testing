@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-io',
@@ -6,10 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./io.component.scss']
 })
 export class IOComponent implements OnInit {
+  @Input() input: string;
+  @Output() output = new EventEmitter<string>();
 
   constructor() { }
 
   ngOnInit() {
+  }
+
+  change() {
+    this.output.emit(this.input + '!');
   }
 
 }
